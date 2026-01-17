@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #===============================================================================
-# VORTEXIA - Script de Instalação Automática para Ubuntu 22.04
+# VORTEXIA - Script de Instalação Automática BY Backupfull
 # 
 # Uso:
 #   curl -sL https://raw.githubusercontent.com/macbservices/vortexia/main/install.sh -o install.sh && sudo bash install.sh
@@ -37,7 +37,7 @@ show_banner() {
     echo "║    ╚████╔╝ ╚██████╔╝██║  ██║   ██║   ███████╗██╔╝ ██╗██║██║  ██║   ║"
     echo "║     ╚═══╝   ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝   ║"
     echo "║                                                                    ║"
-    echo "║              INSTALADOR AUTOMÁTICO - UBUNTU 22.04                  ║"
+    echo "║              INSTALADOR AUTOMÁTICO - BY Backupful                  ║"
     echo "║                                                                    ║"
     echo "╚════════════════════════════════════════════════════════════════════╝"
     echo -e "${NC}"
