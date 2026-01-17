@@ -1,0 +1,41 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente Electric Blue para Neon Purple da identidade VORTEXIA -->
+    <linearGradient id="vortexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+    <!-- Efeito de glow neon -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="clip0">
+      <rect width="180" height="180" rx="37"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip0)">
+    <!-- Fundo escuro #050505 como no site -->
+    <rect width="180" height="180" rx="37" fill="#050505"/>
+    <!-- Borda sutil com gradiente -->
+    <rect x="2" y="2" width="176" height="176" rx="35" stroke="url(#vortexGradient)" stroke-width="2" fill="none" opacity="0.6"/>
+    <!-- "V" estilizado representando VORTEXIA com efeito de vórtice -->
+    <g filter="url(#glow)">
+      <path 
+        d="M90 140L45 50H65L90 105L115 50H135L90 140Z" 
+        fill="url(#vortexGradient)"
+      />
+      <!-- Linha de velocidade/vórtice -->
+      <path 
+        d="M55 45H125" 
+        stroke="url(#vortexGradient)" 
+        stroke-width="4" 
+        stroke-linecap="round"
+        opacity="0.8"
+      />
+    </g>
+  </g>
+</svg>

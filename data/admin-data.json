@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "availableSlots": 7,
+    "totalSlots": 15,
+    "whatsappLink": "https://wa.me/5511999999999"
+  },
+  "clients": [
+    {
+      "id": "1",
+      "name": "João Silva",
+      "status": "active",
+      "activationDate": "2024-01-15",
+      "nextDueDate": "2024-02-15"
+    },
+    {
+      "id": "2",
+      "name": "Maria Santos",
+      "status": "active",
+      "activationDate": "2024-01-20",
+      "nextDueDate": "2024-02-20"
+    },
+    {
+      "id": "3",
+      "name": "Pedro Oliveira",
+      "status": "inactive",
+      "activationDate": "2024-01-10",
+      "nextDueDate": "2024-02-10"
+    }
+  ],
+  "isPasswordChanged": false,
+  "currentPassword": "admin123"
+}
